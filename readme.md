@@ -1,4 +1,4 @@
-WIP!
+Example app that uses Docker and Kafka. It publishes messages to a topic then consumes them.
 
 ## Running the project
 
