@@ -50,7 +50,7 @@ docker compose exec broker \
 Check if the topic "cats" exists:
 
 ```
-docker compose exec kafka \
+docker compose exec broker \
   kafka-topics --list \
     --bootstrap-server localhost:9092
 
