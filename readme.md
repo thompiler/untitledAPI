@@ -12,6 +12,24 @@ Run the `jar` file:
 // Add this
 ```
 
+Example output of the app running, producing, then consuming.
+
+```
+> Task :Main.main()
+Hello and welcome!
+----------------Produce messages----------------
+Produced event to topic cats: key = catto      value = https://cat.com/cat1.png
+Produced event to topic cats: key = bingo      value = https://cat.com/cat2.png
+
+----------------Consume messages----------------
+Consumed event from topic cats: key = catto      value = https://cat.com/cat1.png
+Consumed event from topic cats: key = bingo      value = https://cat.com/cat2.png
+
+BUILD SUCCESSFUL in 7s
+2 actionable tasks: 1 executed, 1 up-to-date
+4:50:19 PM: Execution finished ':Main.main()'.
+```
+
 ## Kafka: Create the topic
 
 Start the services:
